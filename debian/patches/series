@@ -3,4 +3,5 @@ ignoreuserwarning.patch
 fix-ftbfs-on-hurd.patch
 0006-Use-local-objects.inv-for-intersphinx-mapping.patch
 0007-Higher-test_gc-timeout.patch
-ignore-py310-deprecation-warnings.patch
+pythonpath-autoreload-test.patch
+0007-allow-to-instantiate-an-empty-AsyncTestCase.patch

@@ -7,9 +7,11 @@ Forwarded: not-needed
  tornado/test/netutil_test.py | 1 +
  1 file changed, 1 insertion(+)
 
---- python-tornado.orig/tornado/test/netutil_test.py
-+++ python-tornado/tornado/test/netutil_test.py
-@@ -59,6 +59,7 @@
+diff --git a/tornado/test/netutil_test.py b/tornado/test/netutil_test.py
+index b35b794..383d482 100644
+--- a/tornado/test/netutil_test.py
++++ b/tornado/test/netutil_test.py
+@@ -59,6 +59,7 @@ class _ResolverTestMixin(object):
  class _ResolverErrorTestMixin(object):
      resolver = None  # type: typing.Any
  

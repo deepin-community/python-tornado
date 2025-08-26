@@ -10,11 +10,9 @@ Forwarded: https://github.com/tornadoweb/tornado/pull/3358
  tornado/test/autoreload_test.py | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
-diff --git a/tornado/test/autoreload_test.py b/tornado/test/autoreload_test.py
-index 5675faa..8bbca0f 100644
---- a/tornado/test/autoreload_test.py
-+++ b/tornado/test/autoreload_test.py
-@@ -75,7 +75,7 @@ class AutoreloadTest(unittest.TestCase):
+--- python-tornado.orig/tornado/test/autoreload_test.py
++++ python-tornado/tornado/test/autoreload_test.py
+@@ -75,7 +75,7 @@
          # application
          pythonpath = os.getcwd()
          if "PYTHONPATH" in os.environ:

@@ -1,6 +1,8 @@
---- a/tornado/test/tcpclient_test.py
-+++ b/tornado/test/tcpclient_test.py
-@@ -155,6 +155,7 @@
+Index: python-tornado/tornado/test/tcpclient_test.py
+===================================================================
+--- python-tornado.orig/tornado/test/tcpclient_test.py
++++ python-tornado/tornado/test/tcpclient_test.py
+@@ -150,6 +150,7 @@ class TCPClientTest(AsyncTestCase):
          self.do_test_connect(socket.AF_INET, "127.0.0.1", source_ip="127.0.0.1")
  
      @skipIfNonUnix

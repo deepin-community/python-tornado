@@ -9,9 +9,11 @@ Forwarded: not-needed
  docs/conf.py | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
+Index: python-tornado/docs/conf.py
+===================================================================
 --- python-tornado.orig/docs/conf.py
 +++ python-tornado/docs/conf.py
-@@ -84,7 +84,7 @@
+@@ -85,7 +85,7 @@ latex_documents = [
      )
  ]
  

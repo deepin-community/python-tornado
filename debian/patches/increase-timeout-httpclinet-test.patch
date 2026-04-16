@@ -1,0 +1,18 @@
+Description: increase timeout on simple_httpclient_test
+Author:  Aurelien Jarno <aurel32@debian.org>
+Bug: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1117144
+Forwarded: not-needed
+Last-Update: 2025-10-04
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+--- a/tornado/test/simple_httpclient_test.py
++++ b/tornado/test/simple_httpclient_test.py
+@@ -316,7 +316,7 @@
+         yield gen.sleep(0.2)
+ 
+     def test_request_timeout(self):
+-        timeout = 0.1
++        timeout = 0.2
+         if os.name == "nt":
+             timeout = 0.5
+ 

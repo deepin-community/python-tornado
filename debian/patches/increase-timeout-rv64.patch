@@ -5,9 +5,11 @@ Forwarded: not-needed
 Last-Update: 2025-05-19
 ---
 This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
---- a/tornado/test/autoreload_test.py
-+++ b/tornado/test/autoreload_test.py
-@@ -7,6 +7,7 @@
+Index: python-tornado/tornado/test/autoreload_test.py
+===================================================================
+--- python-tornado.orig/tornado/test/autoreload_test.py
++++ python-tornado/tornado/test/autoreload_test.py
+@@ -7,6 +7,7 @@ from tempfile import mkdtemp
  import textwrap
  import time
  import unittest
@@ -15,7 +17,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
  
  
  class AutoreloadTest(unittest.TestCase):
-@@ -91,7 +92,10 @@
+@@ -95,7 +96,10 @@ class AutoreloadTest(unittest.TestCase):
          for i in range(40):
              if p.poll() is not None:
                  break

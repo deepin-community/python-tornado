@@ -2,7 +2,7 @@ disable-domain-tests.patch
 ignoreuserwarning.patch
 0006-Use-local-objects.inv-for-intersphinx-mapping.patch
 0007-Higher-test_gc-timeout.patch
-pythonpath-autoreload-test.patch
 disable-should-be-failing-test.patch
-CVE-2025-47287.patch
 increase-timeout-rv64.patch
+increase-timeout-httpclinet-test.patch
+Make-tests-compatible-with-curl-8.19.0.patch
